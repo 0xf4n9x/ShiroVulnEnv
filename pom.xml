@@ -9,7 +9,7 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>Shiro Vuln Env</name>
+  <name>ShiroVulnEnv</name>
   <url>http://www.example.com</url>
 
   <properties>
@@ -19,6 +19,13 @@
   </properties>
 
   <dependencies>
+
+<!--    <dependency>-->
+<!--      <groupId>commons-collections</groupId>-->
+<!--      <artifactId>commons-collections</artifactId>-->
+<!--      <version>3.2.1</version>-->
+<!--    </dependency>-->
+
     <!--        AES-CBC-->
     <dependency>
       <groupId>org.apache.shiro</groupId>
@@ -96,13 +103,14 @@
 <!--      <artifactId>jcl-over-slf4j</artifactId>-->
 <!--      <version>1.7.26</version>-->
 <!--    </dependency>-->
-<!--    <dependency>-->
-<!--      <groupId>org.apache.tomcat.embed</groupId>-->
-<!--      <artifactId>tomcat-embed-core</artifactId>-->
-<!--&lt;!&ndash;      <version>7.0.109</version>&ndash;&gt;-->
-<!--&lt;!&ndash;      <version>8.5.54</version>&ndash;&gt;-->
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-core</artifactId>
+            <version>7.0.0</version>
+      <!--      <version>7.0.109</version>-->
+<!--      <version>8.5.54</version>-->
 <!--      <version>9.0.10</version>-->
-<!--    </dependency>-->
+    </dependency>
 
   </dependencies>
 
